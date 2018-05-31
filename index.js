@@ -1,6 +1,7 @@
 const auth = require('basic-auth');
 
-module.exports = (user, password) => {
+module.exports = (opts = {}) => {
+  const { user, password } = opts;
   return (req, res, next) => {
     const creds = auth(req);
     if (!creds || creds.name !== user || creds.pass !== password) {
