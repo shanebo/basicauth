@@ -1,0 +1,16 @@
+{
+  "name": "@dylan/basicauth",
+  "version": "0.1.0",
+  "description": "Middleware for Dylan which provides a simple basicauth login prompt on requests.",
+  "license": "MIT",
+  "keywords": [
+    "middleware",
+    "dylan"
+  ],
+  "repository": "dylanjs/basicauth",
+  "author": "Shane Thacker <shane@steadymade.com>",
+  "main": "./index",
+  "dependencies": {
+    "basic-auth": "1.0.3"
+  }
+}
