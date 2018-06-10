@@ -1,14 +1,14 @@
 # BasicAuth
 
-Middleware for Calvin which provides a simple basicauth login prompt on requests.
+Middleware for Dylan which provides a simple basicauth login prompt on requests.
 
 ## Install
 
-`npm install @calvin/basicauth`
+`npm install @dylan/basicauth`
 
 ## Usage
 
 ``` js
-const basicauth = require('@calvin/basicauth');
-app.use(basicauth('John Calvin', 'WCF'));
+const basicauth = require('@dylan/basicauth');
+app.use(basicauth('John Dylan', 'WCF'));
 ```

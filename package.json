@@ -1,12 +1,13 @@
 {
-  "name": "@calvin/basicauth",
+  "name": "@dylan/basicauth",
   "version": "0.1.0",
-  "description": "Middleware for Calvin which provides a simple basicauth login prompt on requests.",
+  "description": "Middleware for Dylan which provides a simple basicauth login prompt on requests.",
   "license": "MIT",
   "keywords": [
-    "middleware"
+    "middleware",
+    "dylan"
   ],
-  "repository": "calvinjs/basicauth",
+  "repository": "dylanjs/basicauth",
   "author": "Shane Thacker <shane@steadymade.com>",
   "main": "./index",
   "dependencies": {
