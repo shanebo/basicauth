@@ -1,6 +1,6 @@
 {
   "name": "@dylan/basicauth",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Middleware for Dylan which provides a simple basicauth login prompt on requests.",
   "license": "MIT",
   "keywords": [
